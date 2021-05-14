@@ -5,6 +5,12 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
+  purge: [
+    "./layouts/**/*.vue",
+    "./layouts/*.vue",
+    "./components/*.vue",
+    "./pages/*.vue"
+  ],
   theme: {
     extend: {
       colors: {
@@ -19,8 +25,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-      },
+        poppins: ["Poppins", "sans-serif"]
+      }
     }
   },
   variants: {},

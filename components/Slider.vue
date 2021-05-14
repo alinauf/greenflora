@@ -1,9 +1,12 @@
 <template>
-    <VueSlickCarousel v-bind="slickOptions" class="col-span-5">
-      <div v-for="i in 3" :key="i" class="w-full min-w-full img-wrapper" >
-        <img :src="`./${i}-slider.jpg`" class="object-cover" />
+    <client-only>
+
+    <!-- <VueSlickCarousel v-bind="slickOptions" class="col-span-5"> -->
+      <div  class="w-full min-w-full img-wrapper" >
+        <img :src="`./1-slider.jpg`" class="object-cover" />
       </div>
-    </VueSlickCarousel>
+    <!-- </VueSlickCarousel> -->
+    </client-only>
 
 </template>
 
