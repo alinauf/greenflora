@@ -1,9 +1,10 @@
 <template>
-    <div class="w-2xl mx-auto">
-            <client-only>
 
+    <div class=" mx-auto">
+            <!-- <client-only> -->
         <Slider />
-    </client-only>
+
+    <!-- </client-only> -->
 
         <div class="flex flex-col justify-center items-center col-span-1">
 

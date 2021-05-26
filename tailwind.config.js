@@ -29,6 +29,12 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    extend: { fontSize: ["hover"], fontWeight: ["hover"] },
+    textDecoration: ["hover"],
+    borderColor: ["hover", "active"],
+    borderWidth: ["hover", "focus"]
+  },
+
   plugins: []
 };
