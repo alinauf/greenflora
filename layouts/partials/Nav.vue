@@ -7,7 +7,7 @@
             </div>
         </div>
 
-        <div class="space-x-4">
+        <div class="hidden md:block space-x-4">
             <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">Rooms</a>
             <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">Services</a>
             <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">Dive</a>
