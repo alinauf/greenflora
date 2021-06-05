@@ -36,31 +36,23 @@
            <img src="@/assets/images/green-flora-landscape.jpeg" class="w-64" alt="Green Flora Logo">
         </div>
         <div class="hidden md:ml-6 md:flex md:space-x-8">
-          <!-- Current: "border-bg-gf-main text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-          <!-- <a href="#" class="border-gf-main text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-            Dashboard
-          </a> -->
+
           <NuxtLink to="/" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
             Home
           </NuxtLink>
+
           <NuxtLink to="our-services" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-            Our Services
+            Room & Services
           </NuxtLink>
-          <NuxtLink to="rooms" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-            Rooms
-          </NuxtLink>
-          <NuxtLink to="/about-us" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-            About Us
-          </NuxtLink>
-          <NuxtLink to="maldives" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-            Maldives
-          </NuxtLink>
+
           <NuxtLink to="diving" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
             Diving
           </NuxtLink>
-         <NuxtLink to="contact-us" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-            Contact Us
+
+          <NuxtLink to="/about-us" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+            About Us
           </NuxtLink>
+
         </div>
       </div>
       <div class="hidden  md:flex items-center">
@@ -81,14 +73,22 @@
   <!-- Mobile menu, show/hide based on menu state. -->
   <div class="md:hidden" id="mobile-menu">
     <div class="pt-2 pb-3 space-y-1">
-      <!-- Current: "bg-indigo-50 bg-gf-main text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-       <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Home</a>
-      <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Our Services</a>
-      <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Rooms</a>
-      <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">About Us</a>
-      <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Maldives</a>
-      <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Diving</a>
-      <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Contact Us</a>
+
+          <NuxtLink to="/" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            Home
+          </NuxtLink>
+
+          <NuxtLink to="our-services" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            Room & Services
+          </NuxtLink>
+
+          <NuxtLink to="diving" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            Diving
+          </NuxtLink>
+
+          <NuxtLink to="about-us" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            About Us
+          </NuxtLink>
 
 
     </div>

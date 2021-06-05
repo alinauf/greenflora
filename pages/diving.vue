@@ -1,74 +1,142 @@
 <template>
 
-    <div class=" mx-auto">
-            <!-- <client-only> -->
-        <Slider />
-
-    <!-- </client-only> -->
-
-        <div class="flex flex-col justify-center items-center col-span-1">
-
-            <div class="container mx-auto p-4">
-                <div class="text-5xl md:text-6xl font-semibold text-gf-main font-poppins">
-                    Welcome to Green Flora
-                </div>
-                <div class="text-2xl font-semibold text-gf-light font-poppins">
-                    Your comfort, in Maldives.
-                </div>
-
-                <div class="text-lg tracking-wide leading-relaxed mt-4 text-gray-700">
-                    Green Flora is a 6-story modern tourist guest house, located in the heart of Villimale. By normal
-                    ferry, it is just 6 minutes away from Male’, the capital city of Maldives. Villimale’ is officially
-                    a part of the Capital city and designed to keep as an environmental friendly atmosphere. In this
-                    small island, Motor vehicles are prohibited by regulations. Therefore, there are no hustles and
-                    bustles like modern cities. Government ferries are available at 24 hours and at every other minute.
-                    (This beautiful small island has a long history. It is the first Tourist resort in the country but
-                    now it is converted to part of Male’, the Capital of Maldives)
-                    <br><br>
-                    Indeed the lovers of nature will like the peaceful and quietness of the island. On top of this
-                    heavenly atmosphere, they will adore the thick greenery of nature’s nest for birds.
-                    <br><br>
-                    Green Flora is in the midst of thick and widespread greenery. A promised land of quietness and
-                    peace. Yet we have all the modern facilities that world-class facilities provide for guests. With
-                    lift services, we provide 18 air-conditioned rooms with attached bath room with hot and cold water.
-                    Wi-Fi is available in the room. Linked to outside-world by Telephone. Mini-bar is kept – and A
-                    mini-safe for your valuables. Self-service coffee and tea available in room.
-                    <br><br>
-
-                    <ul class="list-disc list-outside ml-4">
-                        <li> We book reservation for our guests.
-                        </li>
-                        <li> We offer affordable yet very comfortable accommodations.
-                        </li>
-                        <li>
-                            We receive our guests at airport and arrange return journey.
-                        </li>
-                        <li> We arrange activities on request basis.</li>
-
-
-                    </ul>
-                </div>
-
-                <Room />
-
-                <div>
-                  <iframe class='w-full rounded-lg' height="500"  src="https://www.youtube.com/embed/Ru_NgFmC8MA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-            </div>
-        </div>
+<div class="relative py-16 bg-white overflow-hidden">
+  <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+    <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
+      <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
+        <defs>
+          <pattern id="74b3fd99-0a6f-4271-bef2-e80eeafdf357" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
+      </svg>
+      <svg class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
+        <defs>
+          <pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
+      </svg>
+      <svg class="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
+        <defs>
+          <pattern id="d3eb07ae-5182-43e6-857d-35c643af9034" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />
+      </svg>
     </div>
+  </div>
+  <div class="relative px-4 sm:px-6 lg:px-8">
+    <div class="text-lg max-w-prose mx-auto">
+      <h1>
+        <!-- <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Introducing</span> -->
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Diving</span>
+      </h1>
+      <p class="mt-8 text-center text-xl text-green-600 font-semibold leading-8">
+        Is Maldives good for diving?
+      </p>
+    </div>
+    <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+      <p>
+        Diving in the Maldives ... The Maldives is a low-lying nation with dreamy white sand beaches and excellent reefs with an abundance of marine life.  
+        The Maldives have a tropical climate, and water temperatures range from 80 to 86 degrees year-round, making the diving good nearly any time of year.
+      </p>
+
+        <p>
+
+        </p>
+
+      <figure>
+        <img class="w-full rounded-lg" :src="`./diving/dive-7.jpg`" alt="" width="1310" height="873">
+        <!-- <figcaption>View of our hotel from the outside</figcaption> -->
+      </figure>
+
+      <figure>
+        <img class="w-full rounded-lg" :src="`./diving/dive-4.jpg`" alt="" width="1310" height="873">
+        <!-- <figcaption>View of our hotel from the outside</figcaption> -->
+      </figure>
+
+      <p class="mt-8 text-center text-xl text-green-600 font-semibold leading-8">
+         Which month is the best month to visit Maldives?
+      </p>
+
+        <p class="text-gray-700 font-semibold">
+            November
+        </p>
+
+      <p>
+        The best time to visit the Maldives is from November to April. The island nation is warm and sunny year-round, but consists of a dry season and a wet, rainy season. There are pros and cons to visiting in each season.
+      </p>
+
+      <h2> Maldives Diving Highlights </h2>
+
+        <p>
+            With clear blue water, white sandy beaches, and great visibility, the Maldives is an idyllic scuba diving paradise. During a diving trip to the Maldives, you may see manta Rays, whale sharks, ref sharks, soft & hard corals and much more. The Maldives is also known for its great assortment of dive resorts and liveboards for all kinds of budgets, from low- budget to high-end.
+        </p>
+
+        <p>
+            1000 islands spread over nearly 35,000 square miles. Even though is 26 natural coral atolls, for purpose of administration the Maldives is divided into 19 atolls (areas) and they are marked as being 19 atolls. So someone looking through a map would find 19 zones.
+
+        </p>
+
+       <figure>
+        <img class="w-full rounded-lg" :src="`./diving/dive-13.jpg`" alt="" width="1310" height="873">
+        <!-- <figcaption>View of our hotel from the outside</figcaption> -->
+      </figure>
+
+      <figure>
+        <img class="w-full rounded-lg" :src="`./diving/dive-12.jpg`" alt="" width="1310" height="873">
+        <!-- <figcaption>View of our hotel from the outside</figcaption> -->
+      </figure>
+
+
+        <p>
+            Topside, the Maldives offer some of the most beautiful scenery you will ever see in the your life. More than 95% of Maldives consists of the sea It is also one of the lowest nations in the world, and is in danger of being submerged one day due to rising sea levels.  
+
+        </p>
+
+      <h2> 
+    Marine life in the Maldives
+      
+     </h2>
+
+       <figure>
+        <img class="w-full rounded-lg" :src="`./diving/dive-8.jpg`" alt="" width="1310" height="873">
+        <!-- <figcaption>View of our hotel from the outside</figcaption> -->
+      </figure>
+
+      <figure>
+        <img class="w-full rounded-lg" :src="`./diving/dive-9.jpg`" alt="" width="1310" height="873">
+        <!-- <figcaption>View of our hotel from the outside</figcaption> -->
+      </figure>
+
+
+
+        <p>
+            The Maldives offers some great reefs and marine life and is known for currents, wide-angle photography and plentiful pelagic such as mantas, reef sharks and whale sharks. Visibility early in the year can be outstanding. Well over 100ft. 
+
+        </p>
+
+        <p>
+            In some bay, in the some areas has manta rays and whale sharks during the middle and end of the South West Monsoon which runs from April to November. And during this period, it is only during few times that mass feeding events occur in the Bay Area when plankton has accumulated to certain extent Many people think it is there all the time, but it is not. 
+
+        </p>
+
+
+
+    </div>
+  </div>
+</div>
+
 </template>
 
 <script>
-    import Slider from '@/components/Slider'
-    import Room from '@/components/Room'
 
     export default {
-        components: {
-            Slider,
-            Room
-        }
+
     }
 </script>
 
