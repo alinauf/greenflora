@@ -16,7 +16,7 @@
                     Your comfort, in Maldives.
                 </div>
 
-                <div class="text-lg tracking-wide leading-relaxed mt-4 text-gray-700">
+                <div class="text-lg tracking-wide leading-relaxed mt-4 text-gf-grey">
                     Green Flora is a 6-story modern tourist guest house, located in the heart of Villimale. By normal
                     ferry, it is just 6 minutes away from Male’, the capital city of Maldives. Villimale’ is officially
                     a part of the Capital city and designed to keep as an environmental friendly atmosphere. In this

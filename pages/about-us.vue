@@ -34,13 +34,13 @@
     <div class="text-lg max-w-prose mx-auto">
       <h1>
         <!-- <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Introducing</span> -->
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">About Us</span>
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gf-main sm:text-4xl">About Us</span>
       </h1>
-      <p class="mt-8 text-center text-xl text-green-600 font-semibold leading-8">
+    </div>
+    <div class="mt-6 prose prose-indigo prose-lg text-gray-800 mx-auto">
+      <p class="mt-10 p-10 text-center text-xl text-gf-bggr font-semibold leading-8">
            Green Flora is a 6-story modern tourist guest house, located in the heart of Villi-male.  
       </p>
-    </div>
-    <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
       <p>
           This beautiful World Class Guesthouse comes to being at 2016. The idea of building a Guesthouse is a brainchild of one individual who followed many dreams. Indeed travelling is a colossal decision of people who spend their most precious time after a stressful of long days in their offices. Yes, it is a rare moment of life to get away from those hustles and bustles of busy time. To enjoy life to refresh their brain is so valuable. This luxury facility is built to meet all the requirements of the needy travelers.  
       </p>

@@ -8,15 +8,15 @@
 
         <div class="flex flex-col justify-center items-center col-span-1">
 
-            <div class="container mx-auto p-4">
-                <div class="text-5xl md:text-6xl font-semibold text-gf-main font-poppins">
+            <div class="container mx-auto px-4">
+                <div class="text-4xl md:text-5xl mt-20 font-semibold text-gf-main font-poppins">
                     Welcome to Green Flora
                 </div>
-                <div class="text-2xl font-semibold text-gf-light font-poppins">
+                <div class="text-2xl font-semibold mt-4 text-gray-800 font-poppins">
                     Your comfort, in Maldives.
                 </div>
 
-                <div class="text-lg tracking-wide leading-relaxed mt-4 text-gray-700">
+                <div class="text-lg tracking-wide leading-relaxed mt-10 text-gf-grey">
                     Green Flora is a 6-story modern tourist guest house, located in the heart of Villimale. By normal
                     ferry, it is just 6 minutes away from Male’, the capital city of Maldives. Villimale’ is officially
                     a part of the Capital city and designed to keep as an environmental friendly atmosphere. In this
@@ -51,8 +51,8 @@
 
                 <Room />
 
-                <div>
-                  <iframe class='w-full rounded-lg' height="500"  src="https://www.youtube.com/embed/Ru_NgFmC8MA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="w-full p-10 rounded-xl">
+                  <iframe class="w-full rounded-xl" height="500"  src="https://www.youtube.com/embed/Ru_NgFmC8MA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
             </div>

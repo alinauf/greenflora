@@ -6,10 +6,10 @@
   </div>
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
-      <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+      <h2 class="text-2xl tracking-tight font-extrabold text-gf-bggr sm:text-4xl">
         Our Rooms
       </h2>
-      <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+      <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-800 sm:mt-4">
         <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed. -->
       </p>
     </div>
@@ -18,14 +18,14 @@
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" :src="`./5.jpeg`" alt="">
         </div>
-        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 flex flex-col justify-between">
           <div class="flex-1">
 
             <a href="#" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">
+              <p class="text-xl text-center font-semibold text-white">
                 Single Room
               </p>
-              <p class="mt-3 text-base text-gray-500">
+              <p class="mt-3 text-base text-gray-800">
                 <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum. -->
               </p>
             </a>
@@ -38,14 +38,14 @@
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" :src="`./7.jpeg`" alt="">
         </div>
-        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 flex flex-col justify-between">
           <div class="flex-1">
 
             <a href="#" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">
+              <p class="text-xl text-center font-semibold text-white">
                 Double Room
               </p>
-              <p class="mt-3 text-base text-gray-500">
+              <p class="mt-3 text-base text-gray-800">
                 <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium. -->
               </p>
             </a>
@@ -58,13 +58,13 @@
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" :src="`./6.jpeg`" alt="">
         </div>
-        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 flex flex-col justify-between">
           <div class="flex-1">
             <a href="#" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">
+              <p class="text-xl text-center font-semibold text-white">
                 Deluxe Room
               </p>
-              <p class="mt-3 text-base text-gray-500">
+              <p class="mt-3 text-base text-gray-800">
                 <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic. -->
               </p>
             </a>

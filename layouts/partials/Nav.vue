@@ -7,7 +7,8 @@
       <div class="flex">
         <div class="-ml-2 mr-2 flex items-center md:hidden">
           <!-- Mobile menu button -->
-          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-controls="mobile-menu" aria-expanded="false">
+          
+          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-controls="mobile-menu" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <!--
               Icon when menu is closed.
@@ -33,7 +34,9 @@
         </div>
 
         <div class="flex-shrink-0 flex items-center">
-           <img src="@/assets/images/green-flora-landscape.jpeg" class="w-64" alt="Green Flora Logo">
+           <NuxtLink to="/">
+           <img src="@/assets/images/green-flora-landscape.jpeg" class="p-4 p-sm-0 w-64" alt="Green Flora Logo">
+            </NuxtLink>
         </div>
         <div class="hidden md:ml-6 md:flex md:space-x-8">
 
@@ -74,19 +77,19 @@
   <div class="md:hidden" id="mobile-menu">
     <div class="pt-2 pb-3 space-y-1">
 
-          <NuxtLink to="/" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+          <NuxtLink to="/" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             Home
           </NuxtLink>
 
-          <NuxtLink to="our-services" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+          <NuxtLink to="our-services" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             Room & Services
           </NuxtLink>
 
-          <NuxtLink to="diving" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+          <NuxtLink to="diving" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             Diving
           </NuxtLink>
 
-          <NuxtLink to="about-us" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+          <NuxtLink to="about-us" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             About Us
           </NuxtLink>
 

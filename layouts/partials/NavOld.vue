@@ -8,11 +8,11 @@
         </div>
 
         <div class="hidden md:block space-x-4">
-            <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">Rooms</a>
-            <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">Services</a>
-            <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">Dive</a>
-            <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">Rooftop Garden</a>
-            <a href="" class="text-xl text-gray-700 hover:text-green-700 font-semibold">About Us</a>
+            <a href="" class="text-xl text-gf-grey hover:text-green-700 font-semibold">Rooms</a>
+            <a href="" class="text-xl text-gf-grey hover:text-green-700 font-semibold">Services</a>
+            <a href="" class="text-xl text-gf-grey hover:text-green-700 font-semibold">Dive</a>
+            <a href="" class="text-xl text-gf-grey hover:text-green-700 font-semibold">Rooftop Garden</a>
+            <a href="" class="text-xl text-gf-grey hover:text-green-700 font-semibold">About Us</a>
         </div>
 
         <div class="self-center p-4 hidden md:block">

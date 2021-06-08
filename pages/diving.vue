@@ -32,16 +32,15 @@
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-lg max-w-prose mx-auto">
       <h1>
-        <!-- <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Introducing</span> -->
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Diving</span>
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gf-main sm:text-4xl">Diving</span>
       </h1>
-      <p class="mt-8 text-center text-xl text-green-600 font-semibold leading-8">
+    </div>
+    <div class="mt-10 prose prose-indigo prose-lg text-gray-800 mx-auto">
+      <p class="mt-8 text-left text-xl text-gf-bggr font-semibold leading-8">
         Is Maldives good for diving?
       </p>
-    </div>
-    <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
       <p>
-        Diving in the Maldives ... The Maldives is a low-lying nation with dreamy white sand beaches and excellent reefs with an abundance of marine life.  
+        The Maldives is a low-lying nation with dreamy white sand beaches and excellent reefs with an abundance of marine life.  
         The Maldives have a tropical climate, and water temperatures range from 80 to 86 degrees year-round, making the diving good nearly any time of year.
       </p>
 
@@ -59,11 +58,11 @@
         <!-- <figcaption>View of our hotel from the outside</figcaption> -->
       </figure>
 
-      <p class="mt-8 text-center text-xl text-green-600 font-semibold leading-8">
+      <p class="mt-8 text-center text-xl text-gf-bggr font-semibold leading-8">
          Which month is the best month to visit Maldives?
       </p>
 
-        <p class="text-gray-700 font-semibold">
+        <p class="text-gf-grey font-semibold">
             November
         </p>
 
