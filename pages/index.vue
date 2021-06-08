@@ -44,8 +44,6 @@
                             We receive our guests at airport and arrange return journey.
                         </li>
                         <li> We arrange activities on request basis.</li>
-
-
                     </ul>
                 </div>
 
@@ -53,6 +51,10 @@
 
                 <div class="w-full p-10 rounded-xl">
                   <iframe class="w-full rounded-xl" height="500"  src="https://www.youtube.com/embed/Ru_NgFmC8MA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="w-full p-10 rounded-xl">
+                  <iframe class="w-full rounded-xl" height="500"  src="https://www.youtube.com/embed/-wzgUn1FCDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
             </div>

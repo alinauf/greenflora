@@ -1,12 +1,19 @@
 <template>
 <div>
+    <RoomSlider/>
+
   <div class="container mt-1 max-w-7xl mx-auto">
     <div class="relative bg-white">
       <div class="lg:absolute lg:inset-0">
         <div class="inline-block lg:w-1/2 ">
-          <img class="h-auto w-full align-middle mt-20" :src="`./1-slider.jpeg`" alt="">
+          <img class="h-auto w-full align-middle mt-20" :src="`/1-slider.jpeg`" alt="">
+        </div>
+
+                <div class="inline-block lg:w-1/2 ">
+          <img class="h-auto w-full align-middle mt-20" :src="`/maldives/green-flora-aerial.jpeg`" alt="">
         </div>
       </div>
+    
       <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
         <div class="lg:col-start-2 lg:pl-8">
           <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
@@ -50,7 +57,36 @@
     </div>
   </div>
   <div class="mt-2"></div>
-  <RoomSlider/>
+
+<!--  -->
+        <div class="container  px-4 mx-auto  mt-10"> 
+
+
+            <div class="mt-2 lg:max-w-7xl lg:mx-auto   block text-2xl text-left leading-8 font-extrabold tracking-tight text-green-700 sm:text-4xl">Room Gallery</div>
+      </div>
+
+
+        <div class="container  px-4 mx-auto grid grid-cols-2 md:grid-cols-5 gap-4 mt-10"> 
+          <div
+          v-for="(gorsel, gorselIndex) in gorseller"
+          :key="gorselIndex"
+          class="ma-2 "
+          style="margin-right: 10px"
+          @click="index = gorselIndex"
+          >
+              <img width="180" height="180" :src="gorsel.url" class="resimKutusu" />
+              
+          </div>
+        <LightGallery
+          :images="gorseller"
+          :index="index"
+          :disable-scroll="false"
+          @close="index = null"
+        />
+      </div>
+
+<!--  -->
+
 </div>
 </template>
 
@@ -60,10 +96,29 @@
     export default {
         components: {
             RoomSlider,
-        }
+        },
+          data: () => ({
+    gorseller: [
+      { title: "",url: '/rooms/room-1.jpg' },
+      { title: "",url: '/rooms/room-3.jpg' },
+      { title: "",url: '/rooms/room-4.jpg' },
+      { title: "",url: '/rooms/room-5.jpg' },
+      { title: "",url: '/rooms/room-6.jpg' },
+      { title: "",url: '/rooms/room-7.jpg' },
+
+
+    ],
+    index: null,
+  }),
     }
 </script>
 
-<style>
-
+<style scoped>
+.resimKutusu {
+  border: 1px solid #cdcdcd;
+  padding: 5px;
+  background: #eeeeee;
+  border-radius: 5px;
+  cursor: pointer;
+}
 </style>

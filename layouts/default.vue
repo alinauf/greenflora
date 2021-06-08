@@ -6,15 +6,26 @@
 <footer class="bg-gf-main mt-20 max-w flex text-black mx-auto">
   <div class="container mx-auto px-4 py-12">
     <div class="mb-10">
-      <p class="text text-hairline py-8 text-italic">Spend your vacation here at Green Flora Hotel. Elegant rooms at an affordable price.</p>
+      <p class="text text-hairline text-lg font-semibold py-8 text-italic">Spend your vacation here at Green Flora Hotel. Elegant rooms at an affordable price.</p>
       <div>
       <a class="text inline-block" href="https://www.google.com/maps/place/Green+Flora/@4.1740887,73.4853653,19z/data=!4m11!1m2!3m1!2sGreen+Flora!3m7!1s0x3b3f7e345089221d:0xaae0af6a94e044d4!5m2!4m1!1i2!8m2!3d4.1745269!4d73.485106">
-      📍 Green Flora,<br>
+      📍  Green Flora,<br>
       <span class="pl-6"></span> Sheikh Abdhu'rahmaan Magu,<br>
       <span class="pl-6"></span> Villimale’, Malé </a><br><br>
-      <a href="tel:+9607777655" class="text text-dark hover:text-black text-left inline-block">📞 +9607777655</a> <br>
-      <a class="text text-dark hover:text-black inline-block "href="mailto:greenflora2021@gmail.com">
-      ✉️  greenflora2021@gmail.com</a>
+      <a href="tel:+9603399737" class="text text-dark hover:text-black text-left inline-block mt-2">Landline: (960)3399737</a> <br>
+      <a href="tel:+9607777655" class="text text-dark hover:text-black text-left inline-block mt-2">Hotline: (960)7655107</a> <br>
+
+      <a href="tel:+9607777655" class="text text-dark hover:text-black text-left inline-block mt-2">Viber: (960)7655107</a> <br>
+      <a href="tel:+9607777655" class="text text-dark hover:text-black text-left inline-block mt-2">WhatsApp: (960)7655107</a> <br>
+
+
+
+      <a class="text text-dark hover:text-black inline-block mt-2 "href="mailto:greenflora2021@gmail.com">
+      Email: greenflora2021@gmail.com</a>
+      <br>
+
+            <a href="" class="text text-dark hover:text-black text-left inline-block mt-2">Facebook ID: greenflora2021</a> <br>
+
       </div>
     </div>
     <div class="flex justify-start items-start">

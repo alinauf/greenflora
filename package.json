@@ -14,7 +14,9 @@
     "@headlessui/vue": "^1.2.0",
     "@heroicons/vue": "^1.0.1",
     "@tailwindcss/typography": "^0.4.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-gallery": "^2.0.0",
+    "vue-light-gallery": "^1.0.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0"
