@@ -17,9 +17,7 @@
 
               Menu open: "hidden", Menu closed: "block"
             -->
-            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+
             <!--
               Icon when menu is open.
 
@@ -33,30 +31,45 @@
           </button>
         </div>
 
-        <div class="flex-shrink-0 flex items-center">
-           <NuxtLink to="/">
+        <div class="flex flex-shrink-0 ml-4 mt-10 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 items-center">
+           <NuxtLink to="/" >
            <img src="@/assets/images/green-flora-landscape.jpeg" class="p-4 p-sm-0 w-64" alt="Green Flora Logo">
             </NuxtLink>
         </div>
         <div class="hidden md:ml-6 md:flex md:space-x-8">
 
-          <NuxtLink to="/" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+          <NuxtLink to="/" class="border-transparent text-gray-900 
+            hover:border-gray-300 hover:text-gf-main 
+            inline-flex items-center px-1 pt-1 
+            border-b-2 text-sm font-bold">
             Home
           </NuxtLink>
 
-          <NuxtLink to="our-services" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+          <NuxtLink to="our-services" class="border-transparent text-gray-900 
+            hover:border-gray-300 hover:text-gf-main 
+            inline-flex items-center px-1 pt-1 
+            border-b-2 text-sm font-bold">
             Room & Services
           </NuxtLink>
 
-          <NuxtLink to="diving" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+          <NuxtLink to="diving" class="border-transparent text-gray-900 
+            hover:border-gray-300 hover:text-gf-main 
+            inline-flex items-center px-1 pt-1 
+            border-b-2 text-sm font-bold">
             Diving
           </NuxtLink>
 
-          <NuxtLink to="/about-us" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+          <NuxtLink to="/about-us" class="border-transparent text-gray-900 
+            hover:border-gray-300 hover:text-gf-main 
+            inline-flex items-center px-1 pt-1 
+            border-b-2 text-sm font-bold">
             About Us
           </NuxtLink>
 
-         <NuxtLink to="/maldives" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+         <NuxtLink to="/maldives" class="border-transparent text-gray-900 
+          hover:border-gray-300 hover:text-gf-main 
+          inline-flex items-center px-1 pt-1 
+          border-b-2 text-sm font-bold">
             Maldives
           </NuxtLink>
 
@@ -77,29 +90,83 @@
     </div>
   </div>
 
+
+
+
   <!-- Mobile menu, show/hide based on menu state. -->
   <div class="md:hidden" id="mobile-menu">
+
+
+
     <div class="pt-2 pb-3 space-y-1">
 
-          <NuxtLink to="/" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            Home
-          </NuxtLink>
 
-          <NuxtLink to="our-services" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            Room & Services
-          </NuxtLink>
+<style>
+    #sortbox:checked ~ #sortboxmenu {
+        opacity: 1;
+    }
+</style>
 
-          <NuxtLink to="diving" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            Diving
-          </NuxtLink>
+<div class="block w-full">
 
-          <NuxtLink to="about-us" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            About Us
-          </NuxtLink>
+    <input type="checkbox" id="sortbox" class="hidden absolute">
+    <label for="sortbox" class="flex cursor-pointer">
+      <svg class="h-10 w-10 align-right mr-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
 
-          <NuxtLink to="maldives" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            Maldives
-          </NuxtLink>
+    </label>
+
+        <div id="sortboxmenu" class="absolute mt-1 right-1 top-full  w-full shadow rounded 
+          opacity-0 bg-gray-300 border border-gray-400 transition delay-75 ease-in-out w-100 z-10">
+        
+          <ul class="block text-right text-gray-900 w-full bg-gray-300">
+            <li>
+            <NuxtLink to="/" class="border-transparent bg-gf-main text-gray-800 
+                hover:bg-gf-light hover:border-gray-300 hover:text-gf-dark
+                block pl-3 pr-4 py-2 text-center
+                text-base font-medium sm:pl-5 sm:pr-6">
+              Home
+            </NuxtLink>
+            </li>
+            <li>
+            <NuxtLink to="our-services" class="border-transparent bg-gf-main text-gray-800 
+                hover:bg-gf-light hover:border-gray-300 hover:text-gf-dark
+                block pl-3 pr-4 py-2 text-center
+                text-base font-medium sm:pl-5 sm:pr-6">
+              Room & Services
+            </NuxtLink>
+            </li>
+            <li>
+            <NuxtLink to="diving" class="border-transparent bg-gf-main text-gray-800 
+                hover:bg-gf-light hover:border-gray-300 hover:text-gf-dark
+                block pl-3 pr-4 py-2 text-center
+                text-base font-medium sm:pl-5 sm:pr-6">
+              Diving
+            </NuxtLink>
+            </li>
+            <li>
+            <NuxtLink to="about-us" class="border-transparent bg-gf-main text-gray-800 
+                hover:bg-gf-light hover:border-gray-300 hover:text-gf-dark
+                block pl-3 pr-4 py-2 text-center
+                text-base font-medium sm:pl-5 sm:pr-6">
+              About Us
+            </NuxtLink>
+            </li>
+            <li>
+            <NuxtLink to="maldives" class="border-transparent bg-gf-main text-gray-800 
+                hover:bg-gf-light hover:border-gray-300 hover:text-gf-dark
+                block pl-3 pr-4 py-2 text-center
+                text-base font-medium sm:pl-5 sm:pr-6">
+              Maldives
+            </NuxtLink>
+            </li>
+          </ul>
+    </div>
+</div>
+
+
+          
 
 
     </div>
