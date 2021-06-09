@@ -13,84 +13,65 @@
         <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed. -->
       </p>
     </div>
-
-
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-
-      <NuxtLink to="our-services">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" :src="`/rooms/room-3.jpg`" alt="">
         </div>
-        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 
-            flex flex-col justify-between 
-            transition duration-500 ease-in-out">
+        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 flex flex-col justify-between">
           <div class="flex-1">
 
-            <div class="block mt-2">
+            <NuxtLink to="our-services" class="block mt-2">
               <p class="text-xl text-center font-semibold text-white">
                 Rooms
               </p>
               <p class="mt-3 text-base text-gray-800">
                 <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum. -->
               </p>
-            </div>
+            </NuxtLink>
           </div>
 
         </div>
       </div>
-      </NuxtLink>
 
-
-      <NuxtLink to="maldives">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" :src="`/maldives/19.jpeg`" alt="">
         </div>
-        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 
-            flex flex-col justify-between 
-            transition duration-500 ease-in-out">
+        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 flex flex-col justify-between">
           <div class="flex-1">
 
-            <div class="block mt-2">
+            <NuxtLink to="maldives" class="block mt-2">
               <p class="text-xl text-center font-semibold text-white">
                 Maldives
               </p>
               <p class="mt-3 text-base text-gray-800">
                 <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium. -->
               </p>
-              </div>
+            </NuxtLink>
           </div>
 
         </div>
       </div>
-      </NuxtLink>
 
-
-      <NuxtLink to="gallery">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" :src="`/maldives/29.jpeg`" alt="">
         </div>
-        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 
-            flex flex-col justify-between 
-            transition duration-500 ease-in-out">
+        <div class="flex-1 bg-gf-main hover:bg-gf-bggr hover:text-dark p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <div class="block mt-2">
+            <NuxtLink to="gallery" class="block mt-2">
               <p class="text-xl text-center font-semibold text-white">
                 Gallery
               </p>
               <p class="mt-3 text-base text-gray-800">
-                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium. -->
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic. -->
               </p>
-            </div>
+            </NuxtLink>
           </div>
 
         </div>
       </div>
-      </NuxtLink>
-
-
     </div>
   </div>
 </div>
