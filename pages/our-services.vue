@@ -59,13 +59,12 @@
   <div class="mt-2"></div>
 
 <!--  -->
-        <div class="container  px-4 mx-auto  mt-10"> 
-
-
+        <!-- <div class="container  px-4 mx-auto  mt-10"> 
             <div class="mt-2 lg:max-w-7xl lg:mx-auto   block text-2xl text-left leading-8 font-extrabold tracking-tight text-green-700 sm:text-4xl">Room Gallery</div>
-      </div>
+        </div> -->
 
 
+<!-- 
         <div class="container  px-4 mx-auto grid grid-cols-2 md:grid-cols-5 gap-4 mt-10"> 
           <div
           v-for="(gorsel, gorselIndex) in gorseller"
@@ -82,8 +81,10 @@
           :index="index"
           :disable-scroll="false"
           @close="index = null"
-        />
-      </div>
+        /> -->
+
+
+      <!-- </div> -->
 
 <!--  -->
 
@@ -91,34 +92,32 @@
 </template>
 
 <script>
-    import RoomSlider from '@/components/RoomSlider'
+  //   import RoomSlider from '@/components/RoomSlider'
 
-    export default {
-        components: {
-            RoomSlider,
-        },
-          data: () => ({
-    gorseller: [
-      { title: "",url: '/rooms/room-1.jpg' },
-      { title: "",url: '/rooms/room-3.jpg' },
-      { title: "",url: '/rooms/room-4.jpg' },
-      { title: "",url: '/rooms/room-5.jpg' },
-      { title: "",url: '/rooms/room-6.jpg' },
-      { title: "",url: '/rooms/room-7.jpg' },
-
-
-    ],
-    index: null,
-  }),
-    }
+  //   export default {
+  //       components: {
+  //           // RoomSlider,
+  //       },
+  //         data: () => ({
+  //   gorseller: [
+  //     { title: "",url: '/rooms/room-1.jpg' },
+  //     { title: "",url: '/rooms/room-3.jpg' },
+  //     { title: "",url: '/rooms/room-4.jpg' },
+  //     { title: "",url: '/rooms/room-5.jpg' },
+  //     { title: "",url: '/rooms/room-6.jpg' },
+  //     { title: "",url: '/rooms/room-7.jpg' },
+  //   ],
+  //   index: null,
+  // }),
+  //   }
 </script>
 
 <style scoped>
-.resimKutusu {
+/* .resimKutusu {
   border: 1px solid #cdcdcd;
   padding: 5px;
   background: #eeeeee;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
 </style>

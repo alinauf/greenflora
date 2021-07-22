@@ -284,6 +284,11 @@ The highest temperature recorded was 36 degree Celsius and the lowest 17 degree 
     </div>
   </div>
 </div>
+
+                <div class="w-full p-10 rounded-xl">
+                  <iframe class="w-full rounded-xl" height="500"  src="https://www.youtube.com/embed/3FM1waTeTDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
 </div>
 
 </template>

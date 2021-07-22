@@ -45,7 +45,7 @@
           </NuxtLink>
 
           <NuxtLink to="our-services" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-            Room & Services
+            Our Services
           </NuxtLink>
 
           <NuxtLink to="diving" class="border-transparent text-gray-900 hover:border-gray-300 hover:text-gf-main inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
@@ -86,7 +86,7 @@
           </NuxtLink>
 
           <NuxtLink to="our-services" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            Room & Services
+            Our Services
           </NuxtLink>
 
           <NuxtLink to="diving" class="border-transparent text-gray-800 hover:bg-gray-50 hover:border-gray-300 hover:text-green-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">

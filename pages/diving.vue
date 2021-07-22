@@ -1,5 +1,6 @@
 <template>
 
+<div>
 <div class="relative py-16 bg-white overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
@@ -105,6 +106,11 @@
 
     </div>
   </div>
+</div>
+
+                <div class="w-full p-10 rounded-xl">
+                  <iframe class="w-full rounded-xl" height="500"  src="https://www.youtube.com/embed/sN2WM3VwVwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 </div>
 
 </template>
