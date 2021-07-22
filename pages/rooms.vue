@@ -1,77 +1,116 @@
 <template>
+  <div>
+    <RoomSlider />
 
-    <div class=" mx-auto">
-            <!-- <client-only> -->
-        <Slider />
-
-    <!-- </client-only> -->
-
-        <div class="flex flex-col justify-center items-center col-span-1">
-
-            <div class="container mx-auto p-4">
-                <div class="text-5xl md:text-6xl font-semibold text-gf-main font-poppins">
-                    Welcome to Green Flora
-                </div>
-                <div class="text-2xl font-semibold text-gf-light font-poppins">
-                    Your comfort, in Maldives.
-                </div>
-
-                <div class="text-lg tracking-wide leading-relaxed mt-4 text-gf-grey">
-                    Green Flora is a 6-story modern tourist guest house, located in the heart of Villimale. By normal
-                    ferry, it is just 6 minutes away from Male’, the capital city of Maldives. Villimale’ is officially
-                    a part of the Capital city and designed to keep as an environmental friendly atmosphere. In this
-                    small island, Motor vehicles are prohibited by regulations. Therefore, there are no hustles and
-                    bustles like modern cities. Government ferries are available at 24 hours and at every other minute.
-                    (This beautiful small island has a long history. It is the first Tourist resort in the country but
-                    now it is converted to part of Male’, the Capital of Maldives)
-                    <br><br>
-                    Indeed the lovers of nature will like the peaceful and quietness of the island. On top of this
-                    heavenly atmosphere, they will adore the thick greenery of nature’s nest for birds.
-                    <br><br>
-                    Green Flora is in the midst of thick and widespread greenery. A promised land of quietness and
-                    peace. Yet we have all the modern facilities that world-class facilities provide for guests. With
-                    lift services, we provide 18 air-conditioned rooms with attached bath room with hot and cold water.
-                    Wi-Fi is available in the room. Linked to outside-world by Telephone. Mini-bar is kept – and A
-                    mini-safe for your valuables. Self-service coffee and tea available in room.
-                    <br><br>
-
-                    <ul class="list-disc list-outside ml-4">
-                        <li> We book reservation for our guests.
-                        </li>
-                        <li> We offer affordable yet very comfortable accommodations.
-                        </li>
-                        <li>
-                            We receive our guests at airport and arrange return journey.
-                        </li>
-                        <li> We arrange activities on request basis.</li>
-
-
-                    </ul>
-                </div>
-
-                <Room />
-
-                <div>
-                  <iframe class='w-full rounded-lg' height="500"  src="https://www.youtube.com/embed/Ru_NgFmC8MA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-            </div>
+    <!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/typography'),
+    ]
+  }
+  ```
+-->
+    <div class="relative py-16 bg-white overflow-hidden">
+      <div class="relative px-4 sm:px-6 lg:px-8">
+        <div class="text-lg max-w-prose mx-auto">
+          <h1>
+            <!-- <span
+              class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase"
+              >Rooms</span
+            > -->
+            <span
+              class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gf-main sm:text-4xl"
+              >Rooms</span
+            >
+          </h1>
         </div>
+        <div class="mt-6 prose prose-indigo prose-lg text-gray-800 mx-auto">
+          <p>
+            All our rooms are beautiful and comfortable. We have rooms with
+            balcony. We have rooms out looking greenery. We have double and
+            triple rooms. All are ideal even to stay for a longer vacation. For
+            your comfort and relaxation we extend you our fine-looking- garden-
+            terrace with a modern kitchen and fanciful café to have self-papered
+            meals. This heavenly atmosphere is over-looking Indian Ocean. This
+            excellent facility is specially designed to suite your holiday dream
+            a reality
+          </p>
+        </div>
+      </div>
     </div>
+
+    <!--  -->
+
+    <div class="container  px-4 mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 ">
+      <div
+        v-for="(gorsel, gorselIndex) in gorseller"
+        :key="gorselIndex"
+        class="ma-2 "
+        style="margin-right: 10px"
+        @click="index = gorselIndex"
+      >
+        <div class="rounded-lg overflow-hidden cursor-pointer">
+          <img :src="gorsel.url" class="rounded-lg overflow-hidden" />
+        </div>
+      </div>
+      <LightGallery
+        :images="gorseller"
+        :index="index"
+        :disable-scroll="false"
+        @close="index = null"
+      />
+    </div>
+
+    <!--  -->
+  </div>
 </template>
 
 <script>
-    import Slider from '@/components/Slider'
-    import Room from '@/components/Room'
+//   import RoomSlider from '@/components/RoomSlider'
 
-    export default {
-        components: {
-            Slider,
-            Room
-        }
-    }
+export default {
+  components: {
+    // RoomSlider,
+  },
+  data: () => ({
+    gorseller: [
+      { title: "", url: "/room-photos/1.jpg" },
+      { title: "", url: "/room-photos/2.jpg" },
+      //   { title: "", url: "/room-photos/3.jpg" },
+      { title: "", url: "/room-photos/4.jpg" },
+      { title: "", url: "/room-photos/5.jpg" },
+      { title: "", url: "/room-photos/6.jpg" },
+      { title: "", url: "/room-photos/7.jpg" },
+      { title: "", url: "/room-photos/8.jpg" },
+      { title: "", url: "/room-photos/10.jpg" },
+      { title: "", url: "/room-photos/11.jpg" },
+      { title: "", url: "/room-photos/12.jpg" },
+      { title: "", url: "/room-photos/13.jpg" },
+      { title: "", url: "/room-photos/14.jpg" },
+      { title: "", url: "/room-photos/15.jpg" },
+      { title: "", url: "/room-photos/16.jpg" },
+      { title: "", url: "/room-photos/17.jpg" },
+      { title: "", url: "/room-photos/18.jpg" }
+    ],
+    index: null
+  })
+};
 </script>
 
-<style>
-
+<style scoped>
+/* .resimKutusu {
+  border: 1px solid #cdcdcd;
+  padding: 5px;
+  background: #eeeeee;
+  border-radius: 5px;
+  cursor: pointer;
+} */
 </style>
